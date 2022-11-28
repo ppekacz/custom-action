@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
 echo "$CUSTOM_ENV_VAR"
-env
-echo "$*"
+echo "$INPUT_CUSTOM-ARG"
