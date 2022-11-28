@@ -4,7 +4,7 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
 inputs:
-  custom-arg:
+  custom_arg:
     description: 'A custom argument'
     required: false
     default: '1'
