@@ -3,6 +3,11 @@ description: 'Prints to the console hello world'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+inputs:
+  custom-arg:
+    description: 'A custom argument'
+    required: false
+    default: '1'
 branding:
   icon: 'gift'
   color: 'blue'
