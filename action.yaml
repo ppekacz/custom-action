@@ -1,0 +1,8 @@
+name: 'Custom action 9999'
+description: 'Prints to the console hello world'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'gift'
+  color: 'blue'
